@@ -1,15 +1,15 @@
 .container{
     display: flex;
     width: 100%;
-    height: 90vh;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
 
 .bloco{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    justify-items: spa;
     width: 60%;
     height: 60vh; 
     border: solid 1px;
@@ -17,5 +17,37 @@
     border-radius: 30px; 
     background-color: #0F4C75;
     color: white;
+    flex-direction: column;
 }
+
+.icon{
+    display: flex;
+    justify-content: end;
+    background-color: #0F4C75;
+    margin: 10px 10px 10px 10px;
+    border-radius: 100%;
+}
+
+.sessaoPergunta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F4C75;
+}
+
+.bordas{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100%;
+    background-color: #0F4C75
+}
+
+.pergunta{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0F4C75;
+}
+
 
