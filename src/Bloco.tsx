@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import Alternativa from "./Alternativa";
 import "./Bloco.css";
 import { FaRegQuestionCircle } from "react-icons/fa";
 

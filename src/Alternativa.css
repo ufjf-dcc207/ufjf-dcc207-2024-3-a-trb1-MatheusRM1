@@ -6,12 +6,13 @@
     min-height: auto;
     border-radius: 25px;
     border: solid 2px;
-    border-color: black;
     background-color: #BBE1FA;
 }
 
 .bloquinho:hover{
-    background-color: rgb(162, 225, 170);
+    background-color: rgb(28, 162, 185);
+    border-color: #BBE1FA;
+    transition: 0.3s;
 }
 
 .iconA, .texto{

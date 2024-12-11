@@ -5,7 +5,7 @@ const Questoes: BlocoTuplaType[] = [
   [
     " Qual foi a primeira cidade revelada no jogo? ",
     [
-        ["StrawBerryw" ,false],
+        ["StrawBerry" ,false],
         ["Rhodes" ,false],
         ["Valentine" ,true],
         ["BlackWater" ,false],
