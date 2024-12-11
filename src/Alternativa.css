@@ -1,0 +1,32 @@
+.bloquinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 15em;
+    min-height: auto;
+    border-radius: 25px;
+    border: solid 2px;
+    border-color: black;
+    background-color: #BBE1FA;
+}
+
+.bloquinho:hover{
+    background-color: rgb(162, 225, 170);
+}
+
+.iconA, .texto{
+    padding: 0 0 0 20px;
+    background-color: inherit;
+    color: black;
+}
+
+.iconA{
+    width: 50px;
+    height: 30px;
+}
+
+
+.texto{
+    text-align: left;
+    font-weight: 500;
+}

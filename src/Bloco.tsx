@@ -1,3 +1,4 @@
+import Alternativa from "./Alternativa";
 import "./Bloco.css";
 import { FaRegQuestionCircle } from "react-icons/fa";
 
@@ -14,6 +15,13 @@ export default function Bloco() {
             Qual é a classe que, em todos os jogos, que é perfeita para começar
             qualquer build?
           </h1>
+        </div>
+        <div className="alternativas">
+            <Alternativa/>
+            <Alternativa/>
+            <Alternativa/>
+            <Alternativa/>
+            
         </div>
         <div className="bordas">
           <FaRegQuestionCircle size={44} className="icon" color="black" />
