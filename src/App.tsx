@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div className="app">
       <h1 className="titulo">Quiz Red Dead Redemption 2</h1>
+      <p className="respostas">Respostas Certas: {Questoes.length}/{Questoes.length} (100%)</p>
       {Questoes.map((questao) => (
         <Bloco key={questao[0]} pergunta={questao[0]}>
         {questao[1].map((alter) => (

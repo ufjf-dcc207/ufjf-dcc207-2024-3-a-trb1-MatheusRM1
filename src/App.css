@@ -3,9 +3,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 
 .titulo{
     color: white;
+    font-size: 36px;
+}
+
+.respostas{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
 }
