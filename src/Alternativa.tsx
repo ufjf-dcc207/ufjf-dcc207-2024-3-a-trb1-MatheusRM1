@@ -4,12 +4,12 @@ import { FaRegCircleXmark } from "react-icons/fa6";
 
 interface AlternativaProps {
   resposta: string;
-  certo?: boolean;
+  certo: boolean;
 }
 
 export default function Alternativa({ resposta, certo }: AlternativaProps) {
   return (
-    <div className="bloquinho">
+    <div className={`${certo ? "bloquinho-certo" : "bloquinho-errado"}`}>
       {certo ? (
         <FaCheck className="iconA" size={28} />
       ) : (

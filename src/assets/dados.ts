@@ -21,20 +21,21 @@ const Questoes: BlocoTuplaType[] = [
     ]
   ],
   [
-    "Qual é a gangue Rival da gangue dos personagens principais? ",
+    "Quem era Gavin? ",
     [
-        ["O'Driscolls" ,true],
-        ["Pinkertons" ,false],
-        ["Saqueadores de Lemoyne" ,false],
+        ["Um pistoleiro lendário que escondeu um tesouro" ,false],
+        ["Uma pessoa da imaginação de um homem chamado Nigel" ,true],
+        ["Eu ainda to procurando ele, você viu o Gavin?" ,false],
+        ["Um membro importante da guangue Van Der Linde" ,false],
     ]
   ],
   [
-    "Qual é a classe que, em todos os jogos, que é perfeita para começar qualquer build?",
+    "Qual dessas ações lhe dá honra positiva? ?",
     [
-        ["StrawBerry" ,false],
-        ["Rhodes" ,false],
-        ["Valentine" ,true],
-        ["BlackWater" ,false],
+        ["Se vestir bem" ,false],
+        ["Comprar algo caro de uma loja geral" ,false],
+        ["Pescar peixes e jogar eles de volta" ,true],
+        ["Sair de perto de acampamentos de guagues inimigas" ,false],
     ]
   ],
   [

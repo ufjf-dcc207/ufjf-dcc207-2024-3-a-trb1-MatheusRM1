@@ -1,4 +1,4 @@
-.bloquinho{
+.bloquinho-certo{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,11 +6,29 @@
     min-height: auto;
     border-radius: 25px;
     border: solid 2px;
-    background-color: #BBE1FA;
+    background-color: #7cf58c;
 }
 
-.bloquinho:hover{
+.bloquinho-errado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 15em;
+    min-height: auto;
+    border-radius: 25px;
+    border: solid 2px;
+    background-color: #d65f5f;
+}
+
+
+.bloquinho-certo:hover{
     background-color: rgb(28, 162, 185);
+    border-color: #BBE1FA;
+    transition: 0.3s;
+}
+
+.bloquinho-errado:hover{
+    background-color: rgb(221, 158, 76);
     border-color: #BBE1FA;
     transition: 0.3s;
 }

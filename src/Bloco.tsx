@@ -4,7 +4,7 @@ import { FaRegQuestionCircle } from "react-icons/fa";
 
 interface QuestaoProps{
   pergunta: string,
-  children?: ReactNode,
+  children: ReactNode,
 }
 
 
