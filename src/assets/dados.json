@@ -1,0 +1,109 @@
+{
+  "Questoes": [
+    {
+      "pergunta": "Qual foi a primeira cidade revelada no jogo?",
+      "alternativas": [
+        {
+          "resposta": "StrawBerry",
+          "certo": false
+        },
+        {
+          "resposta": "Rhodes",
+          "certo": false
+        },
+        {
+          "resposta": "BlackWater",
+          "certo": false
+        },
+        {
+          "resposta": "Valentine",
+          "certo": true
+        }
+      ]
+    },
+    {
+      "pergunta": "Em que ano se passa a trama do jogo?",
+      "alternativas": [
+        {
+          "resposta": "1848",
+          "certo": false
+        },
+        {
+          "resposta": "1899",
+          "certo": true
+        },
+        {
+          "resposta": "1940",
+          "certo": false
+        },
+        {
+          "resposta": "1980",
+          "certo": false
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem era Gavin?",
+      "alternativas": [
+        {
+          "resposta": "Um pistoleiro lendário que escondeu um tesouro",
+          "certo": false
+        },
+        {
+          "resposta": "Uma pessoa da imaginação de um homem chamado Nigel",
+          "certo": true
+        },
+        {
+          "resposta": "Eu ainda to procurando ele, você viu o Gavin?",
+          "certo": false
+        },
+        {
+          "resposta": "Um membro importante da guangue Van Der Linde",
+          "certo": false
+        }
+      ]
+    },
+    {
+      "pergunta": "Qual dessas ações lhe dá honra positiva?",
+      "alternativas": [
+        {
+          "resposta": "Se vestir bem",
+          "certo": false
+        },
+        {
+          "resposta": "Comprar algo caro de uma loja geral",
+          "certo": false
+        },
+        {
+          "resposta": "Pescar peixes e jogar eles de volta",
+          "certo": true
+        },
+        {
+          "resposta": "Sair de perto de acampamentos de guagues inimigas",
+          "certo": false
+        }
+      ]
+    },
+    {
+      "pergunta": "Quem é o lider da gangue aliada no jogo?",
+      "alternativas": [
+        {
+          "resposta": "Dutch Van Der Linde",
+          "certo": true
+        },
+        {
+          "resposta": "Micah Bell",
+          "certo": false
+        },
+        {
+          "resposta": "Colm O'Driscoll",
+          "certo": false
+        },
+        {
+          "resposta": "Angelo Bronte",
+          "certo": false
+        }
+      ]
+    }
+  ]
+}
